@@ -1,0 +1,184 @@
+
+body { background-color: #fff; color: #9E9B9B; font-family: helvetica; }
+.menu{
+	/*display: inline-block;*/
+	position: center;
+
+}
+/*.text{
+	position: center;
+}*/
+h1{
+	text-decoration: none;
+	font-size: 20px;
+/*	width: auto;*/
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.id{
+	position: center;
+	padding: 40px;
+	margin: 20px 20px 20px 20px;
+}
+
+.contactbutton{
+	position: center;
+	padding: 0px;
+}
+
+
+.myList{ 
+	list-style-type: none;
+	padding: 0;
+} 
+
+#nav {
+ min-height:100%;
+ position: center;
+}
+
+.span-logo {
+	background-color: #ffffff;
+	display: inline-block;
+	position: center;
+	/*vertical-align: top;*/
+	height: auto;
+	width: 300px;
+}
+
+.kamric-logo {
+	background-color: #ffffff;
+	position: center;
+	height: auto;
+	width: 100%;
+	padding: 12px;
+}
+#container {
+	background-color: #fff;
+	min-height: 100px;
+	max-height: 800px;
+	width: 100%;
+	min-width: 300; 
+	max-width: 400%; 
+}
+
+/*KAMRIC LOGO*/
+.inset {
+	position: center;
+	min-height: 20px;
+	margin: 10px;
+	color: #eee;
+	width: auto;
+	}
+
+/*Gallery Lightbox*/
+	#lightboxcontainer { 
+   /* background-size: 600px auto;*/
+	background-color: #ffffff; 
+	color: #f8f1e9;
+	width: 400px;
+	height: auto;
+	padding: 10px;
+	margin: 10px auto;
+	position: center;
+}
+
+#dark{
+	display: none;
+	position: fixed;
+	left: 0px; right: 0px; bottom: 0px; top: 0px;
+	background-color: rgba(0,0,0,0.65);
+}
+
+#gallery { 
+text-align: center;
+max-width: 100%
+}
+
+.item { 
+	width: 175px;
+	height: auto;
+	border: solid 3px #A7A9AC;
+	display: inline-block;
+	margin: 5px;
+	overflow: hidden;
+}
+.item img {
+	width: 100%;
+}
+
+/*END Galllery Lightbox*/
+
+/*-------------------------------------
+| Responsive Images
+-------------------------------------*/
+img { width: 50%;
+padding: 12px; 
+background-position: center;
+
+}
+
+
+header 	{ background-color: #fff; padding: 0px; }
+nav 	{ background-color: #fff; padding: 20px; }
+#main 	{ background-color: #fff; padding: 10px; }
+footer 	{ background-color: #fff; padding: 10px; }
+
+/*-------------------------------------
+| header and footer
+-------------------------------------*/
+header .inset {
+	line-height: 50px;
+	text-align: center;
+
+}
+
+/*-------------------------------------
+| nav
+-------------------------------------*/
+.span-logo{
+	display: inline-block;
+	
+}
+nav#mainmenu { text-align: center;
+	padding: 5px;
+
+ }
+nav#mainmenu a {
+	display: inline-block;
+	line-height: 50px; 
+	/*border-radius: 10px 2px 10px 2px;*/
+	background-color: #58595B;
+	color: #fff;
+}
+nav#mainmenu a:hover { background-color: #1E0204; color: #fff; text-decoration: none; }
+nav#mainmenu a.chosen { background-color: #05B4C6;  color: #000; }
+
+/*-------------------------------------
+| hamburger
+-------------------------------------*/
+nav#mainmenu .glyphicon-menu-hamburger {
+    /*color: #12B500;*/
+ /*   background-image: url(img/hamburger.png);*/
+	font-size: 60px;
+	padding: 0px;
+}
+nav#mainmenu .menu  { display: none; }
+
+@media screen and (min-width:800px) {
+	nav#mainmenu .glyphicon-menu-hamburger {  display: none; }
+	nav#mainmenu .menu  { display: block; }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <!-- For ID, just put your name in between the com and example -->
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.OmarPatel.example"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+    
+    <!-- Name of your app -->
+    <name>Kamric App</name>
+
+    <!-- Description of your App -->
+    <description>
+        <!-- Does cool stuff with photography. -->
+    </description>
+
+    <!-- Author of the app ie, you) -->
+    <author href="https://build.phonegap.com" email="steven.w.bolz.jr@gmailcom">
+        steve bolz
+    </author>
+
+    <!-- Your plugin code -->
+ <!--    this is to make the plug in work -->
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <gap:plugin name="nl.x-services.plugins.calendar" />
+   <!--  <plugin name="cordova-plugin-camera" spec="1.2.0" source="pgb" /> -->
+
+  
+   <!-- this is for the contact page -->
+    <plugin name="nl.x-services.plugins.socialsharing" spec="4.3.8" source="pgb" />
+
+    <plugin name="com.sharinglabs.cordova.plugin.cache" spec="1.0.0" source="pgb" />
+
+
+   
+    <plugin name="com.phonegap.plugins.barcodescanner" spec="2.2.0" source="pgb" />
+    
+</feature>
+
+</widget>
+
+
+
+
+
+
